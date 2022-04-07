@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- <script>
+      var name = prompt("Hurmatli mijoz ismingizni kiriting");
+      var summa;
+      alert(
+        "Salom ! " +
+          name +
+          '. Siz qayerga sayohat qilishni istaysiz. Sayohat qilishni istasangiz "OK" tugmasini bosing.'
+      );
+      summa = prompt(
+        "Mijoz sayohat uchun mo'ljallagan pulingizni kiriiting. Miqdorni $ (dollar)da kiriting:"
+      );
+      if (summa >= 10000) {
+        alert(
+          "Siz Amerika, BAA, Gavaiy orollariga sayohat qilishingiz mumkin."
+        );
+      } else {
+        if (summa < 10000 && summa >= 5000) {
+          alert(
+            "Siz Turkiya, Rossiya, Indoniziya davlatlariga sayohat qilishingiz mumkin."
+          );
+        } else {
+          if (summa < 5000 && summa >= 500) {
+            alert(
+              "Siz Qozog'iston, Turkmaniston, Tojikiston davlatlariga sayohat qilishingiz mumkin."
+            );
+          } else {
+            if (summa < 500 && summa >= 150) {
+              alert("Siz O'zbekiston bo'ylab sayohat qilishingiz mumkin.");
+            } else {
+              if (summa < 150 && summa >= 0) {
+                alert(
+                  "Hurmatli mijoz " +
+                    summa +
+                    " dollarga, siz uchun sayohat joylarini taklif bera olmaymiz."
+                );
+              } else {
+                alert(
+                  "Hurmatli mijoz biz qarzga ish olib bormaymiz. Siz noto'ri ma'lumot kirityapsiz."
+                );
+              }
+            }
+          }  
+        }
+      }
+
+      // alert('salom yaxshimisiz');
+      // confirm('salom');
+      // confirm('uydagilar tinchmi?');
+    </script> -->
+    <!-- <script>
+      var markWeight = 75;
+      var markHeight = 1.8;
+      var markBmi = markWeight / (markHeight * markHeight);
+      console.log(markBmi);
+    </script> -->
+
+    <!-- <script>
+      var studentAge = 19;
+      var votingAge = 18;
+      if (studentAge > votingAge) {
+        console.log("You can Vote");
+      } else {
+        //false
+        console.log("Come back later");
+      }
+    </script> -->
+    <!-- <script>
+      var studentScore = 73;
+      if (studentScore >= 90) {
+        console.log("you got A");
+      } else if (studentScore < 90 && studentScore >= 80) {
+        console.log("you got B");
+      } else if (studentScore < 80 && studentScore >= 70) {
+        console.log("you got C");
+      } else if (studentScore < 70 && studentScore >= 60) {
+        console.log("you got D");
+      } else {
+        console.log("You got F, loser");
+      }
+      var markWeight = 75;
+      var markHeight = 1.8;
+      var markBmi = markWeight / (markHeight * markHeight);
+      console.log(markBmi);
+      if (markBmi < 15) {
+        console.log("You are thin ");
+      } else if (markBmi >= 15 && markBmi <= 24.99) {
+        console.log("you are normal");
+      } else {
+        console.log("lose loser");
+      }
+    </script> -->
+    <script>
+      var confirmed = confirm(
+        "Sayohatga chiqishni xohlaysizmi?Mablag'ingizga qarab joyni tanlang."
+      );
+      console.log(confirmed);
+      if (confirmed) {
+        var money = prompt(
+          "Mablag'ingizni kiriting to'lov usuli $ (dollar) da kiriting"
+        );
+        if (money >= 3000) {
+          alert("Bu mablag' bilan siz Amerikaga borishingiz mumkin!");
+        } else if (money >= 2000) {
+          alert("Bu mablag' bilan siz Gavaya orolariga borishingiz mumkin!");
+        } else if (money >= 1500) {
+          alert("Bu mablag' bilan siz Dubayga borishingiz mumkin!");
+        } else if (money >= 1000) {
+          alert("Bu mablag' bilan siz Turkiyaga borishingiz mumkin!");
+        } else if (money >= 500) {
+          alert("Bu mablag' bilan siz Rossiyaga borishingiz mumkin!");
+        } else if (money >= 100) {
+          alert("Bu mablag' bilan siz Tojikistonga borishingiz mumkin!");
+        } else if (money >= 50) {
+          alert("Bu mablag' bilan siz Samarqandga borishingiz mumkin!");
+        } else {
+          alert("Kechirasiz siz pishkom yurishingiz kerak!");
+        }
+      }
+    </script>
+  </body>
+</html>
